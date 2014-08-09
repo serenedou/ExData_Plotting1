@@ -16,7 +16,7 @@ names(data)[9] <- "Sub_metering_3"
 head(data)
 
 #ploting
-hist(data$Global_active_power,xlab="Global Active Power (Kilowatts",main="Global Active Power", col="red")
+hist(data$Global_active_power,xlab="Global Active Power (Kilowatts)",main="Global Active Power", col="red")
 
 #save as png files
 dev.copy(png,file="plot1.png")
