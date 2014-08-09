@@ -1,5 +1,5 @@
 # first push the fork from github to local, then create a R file at this local file, then use git add and the the steps in the creenshot, remember the m"message" to aviod the window of adding message coming out.
-data <- read.table("household_power_consumption.txt", sep=";",skip=66636,header=FALSE, nrow=2880)#formula to read the subset data
+data <- read.table("household_power_consumption.txt", sep=";",skip=66637,header=FALSE, nrow=2880)#formula to read the subset data
 head(data)
 tail(data)
 
